@@ -1,0 +1,14 @@
+print(" ")#Espacio entre lineas 
+print("Ramirez Torres Angel Manuel De 3°W")#Muestra el nombre del alumno
+print("Numero de control: 1206")#Muestra el numero de control del alumno
+print(" ")#Espacio entre lineas 
+
+print("Ejercicio #10")#En este ejercicio nos muestra como pasa de una lista a un argumento 
+print(" ")#Espacio entre lineas
+def my_function(food):#Se crea la funcion pero pasar una lista como argumento
+    for x in food:()#Imprime el argumento 
+    print(x)
+
+fruits = ["Fresa", "banana", "Uva"]#Argumentos a elegir 
+my_function(fruits)#Imprime el argumento final 
+print(" ")#Espacio entre lineas
