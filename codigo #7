@@ -1,0 +1,22 @@
+print(" ")#Espacio entre lineas 
+print("Ramirez Torres Angel Manuel De 3°W")#Muestra el nombre del alumno
+print("Numero de control: 1206")#Muestra el numero de control del alumno
+print(" ")#Espacio entre lineas 
+
+print("Ejercicio #7")#Se envian argumentos con la sintaxis clave = valor.
+print(" ")#Espacio entre lineas
+def my_function(child3, child2, child1):#Se inicia la funcion con la sintaxis 
+    print("The youngest child is " + child3)#Se imprime la sintaxis
+my_function(child1 = "Angel", child2 = "Michelle", child3 = "Kate")#Imprime el resultado
+print(" ")#Espacio entre lineas
+def my_function(child3, child2, child1):#Se inicia la funcion con la sintaxis 
+  
+    print("The youngest child is " + child2)#Se imprime la sintaxis
+my_function(child1 = "Angel", child2 = "Michelle", child3 = "Kate")#Imprime el resultado
+print(" ")#Espacio entre lineas
+
+def my_function(child3, child2, child1):#Se inicia la funcion con la sintaxis 
+    print("The youngest child is " + child1)#Se imprime la sintaxis
+
+    my_function(child1 = "Angel", child2 = "Michelle", child3 = "Kate")#Imprime el resultado
+print(" ")#Espacio entre lineas
