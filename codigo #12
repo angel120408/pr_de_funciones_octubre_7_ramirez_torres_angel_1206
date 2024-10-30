@@ -1,0 +1,10 @@
+print(" ")#Espacio entre lineas 
+print("Ramirez Torres Angel Manuel De 3°W")#Muestra el nombre del alumno
+print("Numero de control: 1206")#Muestra el numero de control del alumno
+print(" ")#Espacio entre lineas 
+
+print("Ejercicio #12")#Nos muestra la declaración del pass
+print(" ")#Espacio entre lineas
+def myfunction():#Se crea la funcion declarando el pass
+    pass#Ingnora la condicion 
+print(" ")#Espacio entre lineas
