@@ -1,0 +1,15 @@
+print(" ")#Espacio entre lineas 
+print("Ramirez Torres Angel Manuel De 3°W")#Muestra el nombre del alumno
+print("Numero de control: 1206")#Muestra el numero de control del alumno
+print(" ")#Espacio entre lineas 
+
+print("Ejercicio #8")#Nos muestra como se inicia una funcion con palabras clave
+print(" ")#Espacio entre lineas
+def my_function(**kid):#Se inicia la funcion con argumentos arbitrarios de palabras clave
+    print("His last name is " + kid["lname"])#Imprime las palabras clave
+my_function(fname = "Angel", lname = "Ramirez")#Imprime los argumentos 
+print(" ")#Espacio entre lineas
+def my_function(**kid):#Se inicia la funcion con argumentos arbitrarios de palabras clave
+    print("His last name is " + kid["fname"])#Imprime las palabras clave
+my_function(fname = "Angel", lname = "Ramirez")#Imprime los argumentos 
+print(" ")#Espacio entre lineas
