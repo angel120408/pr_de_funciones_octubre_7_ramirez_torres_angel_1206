@@ -1,0 +1,11 @@
+print(" ")#Espacio entre lineas 
+print("Ramirez Torres Angel Manuel De 3°W")#Muestra el nombre del alumno
+print("Numero de control: 1206")#Muestra el numero de control del alumno
+print(" ")#Espacio entre lineas 
+
+print("Ejercicio #6")#Nos muestra que la función recibirá una tupla de argumentos y podrá acceder a los elementos
+print(" ")#Espacio entre lineas
+def my_function(*kids):#Define la funcion con una tupla de argumento
+    print("The youngest child is " + kids[2])#Imprime el argumento con la tupla
+my_function("Correo", "Angel", "Michelle")#Imprime el resultado 
+print(" ")#Espacio entre lineas
