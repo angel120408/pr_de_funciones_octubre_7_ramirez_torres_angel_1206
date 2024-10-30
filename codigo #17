@@ -1,0 +1,15 @@
+print(" ")#Espacio entre lineas 
+print("Ramirez Torres Angel Manuel De 3°W")#Muestra el nombre del alumno
+print("Numero de control: 1206")#Muestra el numero de control del alumno
+print(" ")#Espacio entre lineas 
+
+print("Ejercicio #17")#Se permite utilizar argumentos posicionales
+print(" ")#Espacio entre lineas
+
+def my_function(x):#Se crea la fuuncion con los argumentos 
+    
+    x = 3 * 6#Operacion 
+    print("3 * 6 =", x )#Imprime el resultado de la operacioin 
+
+my_function(18)#Valor final 
+print(" ")#Espacio entre lineas
