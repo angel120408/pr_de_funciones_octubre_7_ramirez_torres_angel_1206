@@ -1,0 +1,13 @@
+print(" ")#Espacio entre lineas 
+print("Ramirez Torres Angel Manuel De 3°W")#Muestra el nombre del alumno
+print("Numero de control: 1206")#Muestra el numero de control del alumno
+print(" ")#Espacio entre lineas 
+
+print("Ejercicio #16")#Se crean argumentos con palabras clave
+print(" ")#Espacio entre lineas
+
+def my_function(*, x):#Se crea la funcion con *
+    print(x)#Imprime el valor
+    
+my_function(x = 3)#Valor de la funcion 
+print(" ")#Espacio entre lineas
