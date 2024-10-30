@@ -1,0 +1,13 @@
+print("Ejercicio #20")#Aqui acepta la recursividad de funciones
+print(" ")#Espacio entre lineas
+
+def tri_recursion(k):#Se crea la funcion para aceptar la recursividad 
+  if(k > 0):#Inicia la sentencia 
+    result = k + tri_recursion(k - 1)
+    print(result)#Imprime el resultado 
+  else:#De lo contrario 
+    result = 0
+  return result
+
+print("Recursion Example Results:")
+tri_recursion(6)#Le da el valor a la funcion 
