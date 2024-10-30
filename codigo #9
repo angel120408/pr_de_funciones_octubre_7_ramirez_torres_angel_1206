@@ -1,0 +1,14 @@
+print(" ")#Espacio entre lineas 
+print("Ramirez Torres Angel Manuel De 3°W")#Muestra el nombre del alumno
+print("Numero de control: 1206")#Muestra el numero de control del alumno
+print(" ")#Espacio entre lineas 
+
+print("Ejercicio #9 ")#Nos muestra el valor de parámetro predeterminado
+print(" ")#Espacio entre lineas
+def my_function(country):# llamamos a la función sin argumento, usamos el valor predeterminado
+    print("I am from " + country)#Imprime el valor predeterminado 
+my_function("Sweden")#Nos muestra el resultado del valor
+my_function("India")#Nos muestra el resultado del valor
+my_function("Cd. Juarez")#Nos muestra el resultado del valor
+my_function("Brazil")#Nos muestra el resultado del valor
+print(" ")#Espacio entre lineas
