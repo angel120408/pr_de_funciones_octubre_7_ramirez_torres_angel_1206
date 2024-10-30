@@ -1,0 +1,14 @@
+print(" ")#Espacio entre lineas 
+print("Ramirez Torres Angel Manuel De 3°W")#Muestra el nombre del alumno
+print("Numero de control: 1206")#Muestra el numero de control del alumno
+print(" ")#Espacio entre lineas 
+
+print("Ejercico #14")#Sin , / en realidad se le permite usar argumentos de palabras clave
+print(" ")#Espacio entre lineas
+
+def my_function(x):#Se inicia la funcion con los argumentos 
+    x = 6 + 12#Nos muestra el valor de x
+    print("6 + 12 = ", x)#Imprime la suma 
+
+my_function(x = 16)#Determina el valor de la funcion 
+print(" ")#Espacio entre lineas
