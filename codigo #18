@@ -1,0 +1,13 @@
+print(" ")#Espacio entre lineas 
+print("Ramirez Torres Angel Manuel De 3°W")#Muestra el nombre del alumno
+print("Numero de control: 1206")#Muestra el numero de control del alumno
+print(" ")#Espacio entre lineas 
+
+print("Ejercicio #18")#Pero al agregar *, / obtendrás un error si intentas enviar un argumento posicional
+print(" ")#Espacio entre lineas
+
+def my_function(*, x):#Se crea la funcion 
+    print(x)#Imprime el resultado 
+
+my_function(x = 5)#Le da el valor a la variable "x"
+print(" ")#Espacio entre lineas
