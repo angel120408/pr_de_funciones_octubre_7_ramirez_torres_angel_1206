@@ -1,0 +1,15 @@
+print(" ")#Espacio entre lineas 
+print("Ramirez Torres Angel Manuel De 3°W")#Muestra el nombre del alumno
+print("Numero de control: 1206")#Muestra el numero de control del alumno
+print(" ")#Espacio entre lineas 
+
+print("Ejercicio #11")#En este ejercicio regresa los valores
+print(" ")#Espacio entre lineas
+
+def my_function(x):#Se crea la funcion devolviendo valores 
+    return 9 * x
+
+print(my_function(3))#Nos muestra el resultado pero devuelve un valor 
+print(my_function(5))#Nos muestra el resultado pero devuelve un valor 
+print(my_function(9))#Nos muestra el resultado pero devuelve un valor 
+print(" ")#Espacio entre lineas
