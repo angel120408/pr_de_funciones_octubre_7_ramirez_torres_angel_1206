@@ -1,0 +1,11 @@
+print(" ")#Espacio entre lineas 
+print("Ramirez Torres Angel Manuel De 3°W")#Muestra el nombre del alumno
+print("Numero de control: 1206")#Muestra el numero de control del alumno
+print(" ")#Espacio entre lineas 
+
+print("Ejercicio #5")#  En este ejercicio nos muestra que debemos de usar dos argumentos ya que si usamos 1 o 3 marcara error 
+print(" ")#espacio entre lineas
+def my_function(fname, lname):#Define la funcion con dos argumento
+    print(fname + " " + lname)#Imprime ambos argumentos 
+my_function("Angel","Ramirez")#Argumentos balidos 
+print(" ")#Espacio entre lineas
